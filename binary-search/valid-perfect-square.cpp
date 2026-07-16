@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isPerfectSquare(int num) {
-        for(int i=0;i<=num;i++){
+        for(long long i=0;i<=num;i++){
             if(i*i==num){
                 return true;
             }
