@@ -13,6 +13,7 @@ public:
     bool isPalindrome(ListNode* head) {
         stack<int> arr;
         ListNode* temp=head;
+        if(head->next==nullptr) return true;
         while(temp!= nullptr){
             if(arr.empty()) arr.push(temp->val);
             else if(temp->val!= arr.top()){
