@@ -5,11 +5,11 @@ public:
         int left=0;
         int right=x;
         while(left<=right){
-            int mid=(left+right)/2;
-            if(mid*mid==x){
+            int mid=left+(right-left)/2;
+            if(mid==x/mid){
                 return mid;
             }
-            else if(mid*mid>x){
+            else if(mid>x/mid){
                 right=mid-1;
             }
             else{
