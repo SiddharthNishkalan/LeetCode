@@ -1,7 +1,7 @@
 class Solution(object):
     def getConcatenation(self, nums):
-        res=nums+nums
-        return res
+        
+        return nums+nums
         """
         :type nums: List[int]
         :rtype: List[int]
