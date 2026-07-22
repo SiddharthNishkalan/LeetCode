@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool palindrome(string&s,int right,int left){
+    bool palindrome(const string&s,int right,int left){
         while(left<right){
             if(s[right]!=s[left]){
                 return false;
