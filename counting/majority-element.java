@@ -6,7 +6,7 @@ class Solution {
             if(vote==0){
                 candidate=num;
             }
-            if(vote==candidate){
+            if(num==candidate){
                 vote++;
             }
             else{
