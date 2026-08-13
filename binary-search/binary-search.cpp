@@ -2,7 +2,7 @@ class Solution {
 public:
     int search(vector<int>& arr, int target) {
         int left=0;
-        int right=arr.size();
+        int right=arr.size()-1;
         int mid;
         while(left<=right){
             mid=left+(right-left)/2;
