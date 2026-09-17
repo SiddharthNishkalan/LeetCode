@@ -6,8 +6,4 @@ class Solution(object):
             if freqfreq[freq[i]]==1:
                 return i
         return -1
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
         
